@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  await NotificationService().init(); // 
+  await NotificationService().requestIOSPermissions(); // 
+
   runApp(const MyApp());
 }
 
