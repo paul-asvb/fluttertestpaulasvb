@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+## Dev
+
+```bash
+flutter run
+```
+
 ## Notification
 
 https://pub.dev/packages/flutter_local_notifications
