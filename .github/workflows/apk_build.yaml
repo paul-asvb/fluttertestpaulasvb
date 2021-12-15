@@ -18,6 +18,7 @@ jobs:
       - run: flutter build appbundle
       - uses: ncipollo/release-action@v1
         name: Create Github Release 
+        if: github.event_name == 'push' && contains(github.ref, 'refs/tags/')
         with:
           artifacts: "build/app/outputs/apk/release/*.apk,build/app/outputs/bundle/release/*.aab"
           token: ${{ secrets.GITHUB_TOKEN }}
