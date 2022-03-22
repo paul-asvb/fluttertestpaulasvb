@@ -26,5 +26,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ### Init
 
+https://wiki.archlinux.org/title/android
+
 https://dev.to/awais/configure-flutter-development-environment-on-manjaro-arch-linux-4a0a
 
