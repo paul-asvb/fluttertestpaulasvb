@@ -30,3 +30,4 @@ https://wiki.archlinux.org/title/android
 
 https://dev.to/awais/configure-flutter-development-environment-on-manjaro-arch-linux-4a0a
 
+https://www.rockyourcode.com/how-to-get-flutter-and-android-working-on-arch-linux/
