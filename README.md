@@ -31,3 +31,25 @@ https://wiki.archlinux.org/title/android
 https://dev.to/awais/configure-flutter-development-environment-on-manjaro-arch-linux-4a0a
 
 https://www.rockyourcode.com/how-to-get-flutter-and-android-working-on-arch-linux/
+
+# How to install on Arch
+
+```
+yay -S flutter
+sudo groupadd flutterusers
+sudo gpasswd -a $USER flutterusers
+sudo chown -R :flutterusers /opt/flutter
+sudo chmod -R g+w /opt/flutter/
+sudo chown -R $USER:flutterusers /opt/flutter
+```
+Should work now:
+```
+flutter
+```
+
+Should show potential problems:
+```
+flutter doctor
+``
+
+
